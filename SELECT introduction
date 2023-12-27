@@ -1,6 +1,14 @@
-Question:
+Question 1:
 SALARIES (Professor_Name (TEXT), Department (TEXT), Salary (INT))
 Write a query that outputs all of the contents of the table.
 
 Solution:
 SELECT * FROM SALARIES
+
+Question 2:
+SALARIES (Professor_Name (TEXT), Department (TEXT), Salary (INT))
+Write a query that returns the names of all the professors in the table.
+
+Solution:
+
+SELECT Professor_Name FROM SALARIES
