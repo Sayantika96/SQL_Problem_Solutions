@@ -1,0 +1,6 @@
+Question:
+SALARIES (Professor_Name (TEXT), Department (TEXT), Salary (INT))
+Write a query that returns the number of professors whose salary is greater than 150000
+
+Solution:
+SELECT COUNT (Professor_name) FROM SALARIES WHERE Salary > 150000
